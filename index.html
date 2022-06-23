@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #FFFFFF;
+        font-family: 'Didact Gothic', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+      .dropdown {
+        border-radius: 2%;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a,
+      .dropbtn {
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover,
+      .dropdown:hover .dropbtn {
+        background-color: red;
+      }
+
+      li.dropdown {
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: rgb(0, 0, 0);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      header {
+        width: 100%;
+        height: 60px;
+        background-color: #790909;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+      }
+    </style>
+    <header><img src="https://w7.pngwing.com/pngs/178/664/png-transparent-cat-logo-graphic-design-creative-owl-cat-like-mammal-carnivoran-logo.png" width="50px;" />
+      <ul>
+        <li class="dropdown" style=""><a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+          <div class="dropdown-content"><a href="#">Link 1</a><a href="#">Link 2</a><a href="#">Link 3</a></div>
+        </li>
+      </ul>
+      <nav></nav>
+      <div class="flex items-center md:order-2"><button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" type="button" data-dropdown-toggle="dropdown"><span class="sr-only">Open user menu</span><img class="w-8 h-8 rounded-full" src="https://api.lorem.space/image/face?hash=33791" alt="user photo"></button></div>
+    </header><img src="https://www.xmple.com/wallpaper/linear-red-gradient-1920x1080-c2-a61e27-3b1416-a-315-f-14.svg" style="width: 100%; height: 500px;" />
+    <main class="profile-page">
+      <section class="relative py-16 bg-white">
+        <div class="container mx-auto px-4">
+          <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64">
+            <div class="px-6">
+              <div class="flex flex-wrap justify-center">
+                <div class="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
+                  <div class="relative"><img alt="..." src="https://api.lorem.space/image/face?hash=33791" class="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16" style="max-width: 150px;" /></div>
+                </div>
+                <div class="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
+                  <div class="py-6 px-3 mt-32 sm:mt-0"><button class="inline-block px-6 py-2.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out" type="button" style="transition: all 0.15s ease 0s;"> Connect </button></div>
+                </div>
+              </div>
+              <div class="text-center mt-12">
+                <h3 class="text-4xl font-semibold leading-normal mb-2 text-gray-800 mb-2"> Full Name </h3>
+                <div> Duis sed cursus metus. Vestibulum bibendum molestie quam, pretium venenatis purus tempus vel. Ut posuere metus pellentesque, elementum justo quis, posuere massa. Donec quis mauris posuere, accumsan turpis non, tempus odio. Sed ac consectetur nulla, id lacinia lectus. Nunc vel facilisis elit. Cras sit amet nulla lectus. Suspendisse non risus vel libero gravida tempus sit amet ac tellus. Duis tincidunt, enim eu ultricies cursus, lorem sem sagittis quam, vel faucibus libero elit eget risus. Mauris pulvinar urna et cursus ultrices. Phasellus tellus orci, molestie tempus dolor nec, lobortis condimentum enim. Quisque sollicitudin arcu magna, vitae tempus nisi viverra id. </div>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+    <section>
+      <style>
+        .zum {
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: center;
+          align-items: flex-start;
+          align-content: flex-start;
+          width: 100%;
+          background-color: #ffffff;
+          height: 80vh;
+          overflow: auto;
+          flex-direction: row;
+        }
+
+        .zum .i {
+          margin: 40px;
+        }
+      </style>
+      <footer>
+        <section class='zum'>
+          <div class="i"><a>aboutus</a></div>
+          <div class="i"><a>privacy</a></div>
+          <div class="i"><a>terms</a></div>
+        </section>
+      </footer>
+    </section>
+    </div>
+  </body>
+</html>
